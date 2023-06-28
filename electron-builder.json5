@@ -5,12 +5,19 @@
   "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
   "appId": "YourAppID",
   "asar": true,
+  "copyright": "Copyright © 2023 wallpaper-calendar",
   "directories": {
-    "output": "release/${version}"
+    "output": "dist/${version}",
+    "buildResources": "resources"
   },
   "files": [
-    "dist-electron",
-    "dist"
+    {
+      "from": ".",
+      "filter": [
+        "package.json",
+        "app"
+      ],
+    }
   ],
   "mac": {
     "artifactName": "${productName}_${version}.${ext}",
