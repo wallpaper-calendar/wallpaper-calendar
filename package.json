@@ -3,7 +3,6 @@
     "name": "wall-paper-calendar",
     "description": "Calendar",
     "version": "1.0.0",
-    "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
     "main": "app/background.js",
     "scripts": {
         "format": "prettier --write .",
