@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "wall-paper-calendar",
+    "name": "wallpaper-calendar",
     "description": "Calendar",
     "version": "1.0.0",
     "main": "app/background.js",
