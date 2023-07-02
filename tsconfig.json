@@ -23,5 +23,5 @@
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true
     },
-    "exclude": ["node_modules", "app", "dist"]
+    "exclude": ["node_modules", "renderer/next.config.js", "app", "dist"]
 }
