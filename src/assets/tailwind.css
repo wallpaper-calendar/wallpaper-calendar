@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.m-1 { margin-top: 20px;}
+.m-2 { margin-top: 20px;}
+.m-3 { margin-top: 20px;}
+
+.font-color-red { color: red;}
