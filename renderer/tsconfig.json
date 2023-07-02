@@ -1,0 +1,13 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        // Using "baseUrl" allows you to use absolute paths
+        "baseUrl": ".",
+        // Using "paths" allows you to configure module path aliases
+        "paths": {
+            "@/*": ["./*"]
+        }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"]
+}
