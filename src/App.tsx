@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/electron-vite.animate.svg";
 import "./App.css";
+import './assets/tailwind.css'
 
 function App() {
     const [count, setCount] = useState(0);
@@ -24,6 +25,7 @@ function App() {
                 </p>
             </div>
             <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
+            <p className="m-3 font-color-red">테일 윈드 CSS 적용 확인</p>
         </>
     );
 }
